@@ -16,19 +16,19 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <Home_content/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Home_content from './components/Home-content.vue';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Home_content,
   },
 
   data: () => ({
